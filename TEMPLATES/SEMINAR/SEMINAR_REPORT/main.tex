@@ -1,0 +1,714 @@
+
+\documentclass[12pt]{article}
+
+% ---------- PACKAGES ----------
+\usepackage{graphicx}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{setspace}
+
+% ---------- DOCUMENT DETAILS ----------
+\newcommand{\reporttitle}{REPORT TITLE}
+\newcommand{\studentname}{NAME}
+\newcommand{\rollnumber}{ROLL NUMBER}
+\newcommand{\department}{DEPARTMENT NAME}
+\newcommand{\college}{TKM College of Engineering, Kollam}
+\newcommand{\university}{APJ Abdul Kalam Technological University}
+\newcommand{\reportmonth}{MONTH YEAR}
+
+\begin{document}
+
+% =========================================================
+% TITLE PAGE
+% =========================================================
+\begin{titlepage}
+\begin{center}
+
+% ---- LOGO ONLY ----
+\includegraphics[width=3.5cm]{TKM_LOGO.png}
+
+\vfill
+
+% ---- TITLE ----
+{\Large \textbf{\reporttitle}}
+
+\vfill
+
+{\large \textbf{A SEMINAR REPORT}}
+
+\vspace{0.6cm}
+
+\textit{submitted by}
+
+\vspace{0.4cm}
+
+{\large \textbf{\studentname}}\\
+{\large \textbf{\rollnumber}}
+
+\vfill
+
+\textit{to}
+
+\vspace{0.4cm}
+
+{\large \university}
+
+\vspace{0.4cm}
+
+\textit{in partial fulfillment of the requirements for the award of the Degree of}
+
+\vspace{0.4cm}
+
+{\large \textbf{Bachelor of Technology}}
+
+\vspace{0.2cm}
+
+\textit{in}
+
+\vspace{0.2cm}
+
+{\large \textbf{\department}}
+
+\vfill
+
+% ---- DEPARTMENT & COLLEGE ----
+{\normalsize \textbf{\department}}\\
+{\normalsize \textbf{TKM COLLEGE OF ENGINEERING, KOLLAM}}
+
+\vspace{0.6cm}
+
+{\normalsize \textbf{\reportmonth}}
+
+\end{center}
+\end{titlepage}
+
+\newpage
+
+% =========================================================
+% CERTIFICATE
+% =========================================================
+\begin{center}
+
+\vspace*{0.5cm}
+
+% ---- LOGO ONLY ----
+\includegraphics[width=3.5cm]{TKM_LOGO.png}
+
+\vspace{0.6cm}
+
+{\large \textbf{\department}}\\
+{\large \textbf{TKM COLLEGE OF ENGINEERING, KOLLAM}}
+
+\vspace{1cm}
+
+{\Large \textbf{CERTIFICATE}}
+
+\end{center}
+
+\vspace{1cm}
+
+\noindent
+This is to certify that the seminar report entitled 
+\textbf{``\reporttitle''}
+submitted by \textbf{\studentname\ (\rollnumber)} to \university\ in partial fulfillment of the requirements for the award of the Degree of Bachelor of Technology in \department\ is a bonafide record of the seminar work carried out under the guidance and supervision of the faculty members.
+
+\vspace{2cm}
+
+% ---- SIGNATURE BLOCK ----
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{7cm} p{7cm}}
+
+\begin{flushleft}
+\textbf{Name of Seminar Coordinator} \\
+Seminar Coordinator \\
+Designation \\
+Department
+\end{flushleft}
+
+&
+
+\begin{flushright}
+\textbf{Name of Staff Advisor} \\
+Staff Advisor \\
+Designation \\
+Department
+\end{flushright}
+
+\\[2cm]
+
+\begin{flushleft}
+\textbf{Name of Seminar Guide} \\
+Seminar Guide \\
+Designation \\
+Department
+\end{flushleft}
+
+&
+
+\begin{flushright}
+\textbf{Name of Head of Department} \\
+Head of Department \\
+Designation \\
+Department
+\end{flushright}
+
+\end{tabular*}
+
+\newpage
+
+% =========================================================
+% ACKNOWLEDGEMENT
+% =========================================================
+\large
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{center}
+\textbf{\Large ACKNOWLEDGEMENT}
+\end{center}
+
+\vspace{0.6cm}
+
+First of all, I express my sincere gratitude to the Almighty for providing me with the strength, knowledge, and opportunity to successfully complete this seminar on time.
+
+\par\vspace{0.3cm}
+
+I express my heartfelt gratitude to the Principal, TKM College of Engineering, Kollam, and the Head of the Department for providing the necessary facilities and support for the successful completion of this seminar.
+
+\par\vspace{0.3cm}
+
+I am deeply thankful to the Seminar Coordinator for valuable guidance, encouragement, and support throughout the course of this seminar.
+
+\par\vspace{0.3cm}
+
+I would also like to express my sincere thanks to the Seminar Guide for continuous guidance, insightful suggestions, and constant encouragement during the preparation of this report.
+
+\par\vspace{0.3cm}
+
+I also extend my sincere thanks to the Staff Advisor and all faculty members of the department for their valuable support and cooperation.
+
+\par\vspace{0.3cm}
+
+Finally, I express my gratitude to my friends and family for their support, encouragement, and motivation.
+
+\vspace{0.8cm}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+Place: Kollam\\
+Date: \reportmonth
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright}
+\textbf{\studentname}\\
+\rollnumber
+\end{flushright}
+\end{minipage}
+
+\newpage
+
+% =========================================================
+% ABSTRACT
+% =========================================================
+\begin{center}
+\textbf{\Large ABSTRACT}
+\end{center}
+
+\vspace{0.6cm}
+
+Write the abstract of the seminar report here. The abstract should briefly explain the topic, the purpose of the study, the methodology or approach used, the major findings, and the conclusion.
+
+\par\vspace{0.3cm}
+
+The abstract should be concise and should give the reader a clear overview of the entire report.
+
+\newpage
+
+% =========================================================
+% CONTENTS
+% =========================================================
+\begin{center}
+\textbf{\Large CONTENTS}
+\end{center}
+
+\vspace{0.8cm}
+
+\noindent
+\begin{tabular}{p{13cm} r}
+
+\textbf{Acknowledgement} & 2 \\
+\textbf{Abstract} & 3 \\
+\textbf{Contents} & 4 \\
+\textbf{List of Figures} & 5 \\
+\textbf{List of Tables} & 6 \\
+\textbf{Abbreviations} & 7 \\
+
+\\
+
+\textbf{1 \hspace{0.3cm} Introduction} & 8 \\
+\hspace{0.5cm}1.1 General Background & 8 \\
+\hspace{0.5cm}1.2 Motivation & 8 \\
+\hspace{0.5cm}1.3 Objectives & 9 \\
+\hspace{0.5cm}1.4 Scope of the Study & 9 \\
+\hspace{0.5cm}1.5 Organization of the Report & 10 \\
+
+\\
+
+\textbf{2 \hspace{0.3cm} Technical Background} & 11 \\
+\hspace{0.5cm}2.1 Introduction & 11 \\
+\hspace{0.5cm}2.2 Key Concepts & 11 \\
+\hspace{0.5cm}2.3 Existing Methods & 12 \\
+\hspace{0.5cm}2.4 Summary & 12 \\
+
+\\
+
+\textbf{3 \hspace{0.3cm} Literature Survey} & 13 \\
+\hspace{0.5cm}3.1 Introduction & 13 \\
+\hspace{0.5cm}3.2 Review of Related Works & 13 \\
+\hspace{0.5cm}3.3 Summary & 14 \\
+
+\\
+
+\textbf{4 \hspace{0.3cm} Problem Definition and Objectives} & 15 \\
+\hspace{0.5cm}4.1 Problem Statement & 15 \\
+\hspace{0.5cm}4.2 Limitations of Existing Systems & 15 \\
+\hspace{0.5cm}4.3 Objectives & 16 \\
+
+\\
+
+\textbf{5 \hspace{0.3cm} Proposed Methodology} & 17 \\
+\textbf{6 \hspace{0.3cm} Applications and Results} & 18 \\
+\textbf{7 \hspace{0.3cm} Conclusion and Future Scope} & 19 \\
+\textbf{References} & 20 \\
+
+\end{tabular}
+
+\newpage
+
+% =========================================================
+% LIST OF TABLES
+% =========================================================
+\begin{center}
+\textbf{\Large LIST OF TABLES}
+\end{center}
+
+\vspace{0.8cm}
+
+\renewcommand{\arraystretch}{1.8}
+
+\noindent
+\begin{tabular}{@{}p{12.5cm} @{\hspace{1cm}} r@{}}
+\textbf{Table 1} \hspace{0.3cm} Title of table 1 & Page No. \\
+\textbf{Table 2} \hspace{0.3cm} Title of table 2 & Page No. \\
+\end{tabular}
+
+\newpage
+
+% =========================================================
+% LIST OF FIGURES
+% =========================================================
+\begin{center}
+\textbf{\Large LIST OF FIGURES}
+\end{center}
+
+\vspace{0.8cm}
+
+\noindent
+\begin{tabular}{@{}p{12.5cm} @{\hspace{1cm}} r@{}}
+\textbf{Figure 1} \hspace{0.3cm} Title of figure 1 & Page No. \\
+\textbf{Figure 2} \hspace{0.3cm} Title of figure 2 & Page No. \\
+\end{tabular}
+
+\newpage
+
+% =========================================================
+% ABBREVIATIONS
+% =========================================================
+\begin{center}
+\textbf{\Large ABBREVIATIONS}
+\end{center}
+
+\vspace{0.8cm}
+
+\begin{itemize}
+\item \textbf{ABC} -- Full Form
+\item \textbf{XYZ} -- Full Form
+\end{itemize}
+
+\newpage
+
+% =========================================================
+% CHAPTER 1
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 1}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large INTRODUCTION}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{1.1 General Background}
+
+\vspace{0.25cm}
+
+Write the general background of the seminar topic here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{1.2 Motivation}
+
+\vspace{0.25cm}
+
+Write the motivation for selecting this topic here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{1.3 Objectives}
+
+\vspace{0.25cm}
+
+The main objectives of this seminar are:
+
+\vspace{0.2cm}
+
+\begin{itemize}
+\item Objective 1
+\item Objective 2
+\item Objective 3
+\item Objective 4
+\end{itemize}
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{1.4 Scope of the Study}
+
+\vspace{0.25cm}
+
+Write the scope of the study here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{1.5 Organization of the Report}
+
+\vspace{0.25cm}
+
+Write the organization of the report here.
+
+\newpage
+
+% =========================================================
+% CHAPTER 2
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 2}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large TECHNICAL BACKGROUND}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{2.1 Introduction}
+
+\vspace{0.25cm}
+
+Write the technical background introduction here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{2.2 Key Concepts}
+
+\vspace{0.25cm}
+
+Explain the important concepts related to the topic here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{2.3 Existing Methods}
+
+\vspace{0.25cm}
+
+Describe the existing methods or technologies here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{2.4 Summary}
+
+\vspace{0.25cm}
+
+Summarize the chapter here.
+
+\newpage
+
+% =========================================================
+% CHAPTER 3
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 3}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large LITERATURE SURVEY}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{3.1 Introduction}
+
+\vspace{0.25cm}
+
+Write the introduction to the literature survey here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{3.2 Review of Related Works}
+
+\vspace{0.25cm}
+
+Discuss the related works here.
+
+\vspace{0.5cm}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|p{3cm}|p{2cm}|p{3cm}|p{4cm}|}
+\hline
+\textbf{Author} & \textbf{Year} & \textbf{Method} & \textbf{Key Findings} \\
+\hline
+Author 1 & Year & Method 1 & Finding 1 \\
+\hline
+Author 2 & Year & Method 2 & Finding 2 \\
+\hline
+Author 3 & Year & Method 3 & Finding 3 \\
+\hline
+\end{tabular}
+\caption{Summary of related works}
+\label{tab:literature}
+\end{table}
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{3.3 Summary}
+
+\vspace{0.25cm}
+
+Summarize the literature survey here.
+
+\newpage
+
+% =========================================================
+% CHAPTER 4
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 4}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large PROBLEM DEFINITION AND OBJECTIVES}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{4.1 Problem Statement}
+
+\vspace{0.25cm}
+
+Write the problem statement here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{4.2 Limitations of Existing Systems}
+
+\vspace{0.25cm}
+
+Write the limitations of existing systems here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{4.3 Objectives}
+
+\vspace{0.25cm}
+
+Write the objectives here.
+
+\newpage
+
+% =========================================================
+% CHAPTER 5
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 5}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large PROPOSED METHODOLOGY}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{5.1 System Overview}
+
+\vspace{0.25cm}
+
+Write the system overview here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{5.2 Methodology}
+
+\vspace{0.25cm}
+
+Explain the methodology here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{5.3 Workflow Summary}
+
+\vspace{0.25cm}
+
+The workflow can be summarized as follows:
+
+\begin{enumerate}
+\item Step 1
+\item Step 2
+\item Step 3
+\item Step 4
+\end{enumerate}
+
+\newpage
+
+% =========================================================
+% CHAPTER 6
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 6}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large APPLICATIONS AND RESULTS}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{6.1 Applications}
+
+\vspace{0.25cm}
+
+Write the applications here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{6.2 Results and Discussion}
+
+\vspace{0.25cm}
+
+Write the results and discussion here.
+
+\vspace{0.5cm}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|p{5cm}|p{5cm}|}
+\hline
+\textbf{Parameter} & \textbf{Observation} \\
+\hline
+Parameter 1 & Observation 1 \\
+\hline
+Parameter 2 & Observation 2 \\
+\hline
+\end{tabular}
+\caption{Sample results table}
+\label{tab:results}
+\end{table}
+
+\newpage
+
+% =========================================================
+% CHAPTER 7
+% =========================================================
+\begin{center}
+\textbf{\Large Chapter 7}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{\Large CONCLUSION AND FUTURE SCOPE}
+\end{center}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{7.1 Conclusion}
+
+\vspace{0.25cm}
+
+Write the conclusion here.
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{7.2 Future Scope}
+
+\vspace{0.25cm}
+
+Write the future scope here.
+
+\newpage
+
+% =========================================================
+% REFERENCES
+% =========================================================
+\begin{center}
+\textbf{\Large REFERENCES}
+\end{center}
+
+\vspace{0.6cm}
+
+\begin{enumerate}
+\item Author Name, ``Title of the Paper,'' \textit{Journal/Conference Name}, Year.
+\item Author Name, ``Title of the Book,'' Publisher, Year.
+\item Website or online source, Accessed on: Date.
+\end{enumerate}
+
+\end{document}
+```
